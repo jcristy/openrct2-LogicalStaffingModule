@@ -1,4 +1,4 @@
-//import {} from 'openrct2';
+import {} from 'lib/openrct2';
 
 import { ManageStaff } from './act';
 
@@ -35,8 +35,10 @@ export var myConfig: PluginConfig;
 const pluginConfigPath: string = 'jcristy.staffmanager.config';
 
 export function LoadConfig() {
-  let possibleConfig: PluginConfig | undefined =
-    context.sharedStorage.get(pluginConfigPath);
+  let possibleConfig: PluginConfig | undefined = context
+    .getParkStorage(pluginConfigPath)
+    .get(pluginConfigPath);
+
   if (!possibleConfig) {
     myConfig = new PluginConfig();
     save();
@@ -54,7 +56,7 @@ let handle: Window | undefined;
 export function OpenConfigureUI() {
   if (handle !== undefined) return;
   const layout: GridLayout = new GridLayout(6, 1, 224, 256);
-  const widgets: Widget[] = [
+  const widgets: WidgetDesc[] = [
     layout.DoMe({
       type: 'label',
       text: 'End the tedium! [VI]{version}[/VI]',
@@ -83,6 +85,7 @@ export function OpenConfigureUI() {
       type: 'button',
       text: 'Apply!',
       onClick() {
+        saveParkConfig();
         if (handle != undefined) {
           handle.close(); // close the window to force reloading the values :-)
         }
@@ -101,6 +104,10 @@ export function OpenConfigureUI() {
     },
     widgets,
   });
+}
+
+function saveParkConfig() {
+  context.getParkStorage(pluginConfigPath).set(pluginConfigPath, myConfig);
 }
 
 interface WidgetSpec {

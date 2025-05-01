@@ -1,7 +1,5 @@
 import { PluginConfig } from './configure';
 
-//import { Handyman } from 'openrct2';
-
 export function ManageStaff(config: PluginConfig) {
   let toHire: number = config.numberOfHandymen - countHandymen();
   console.log(toHire + ' handymen');
@@ -28,8 +26,8 @@ function hireJanitor(): void {
     staffType: 0,
     costumeIndex: 0,
     staffOrders: 0x1 | 0x4, // Sweeping and emptying bins
-  }
-  console.log("sending this "+args);
+  };
+  console.log('sending this ' + args);
   context.executeAction('staffhire', args);
 }
 
