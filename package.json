@@ -12,6 +12,7 @@
     "postversion": "npm run build",
     "release": "npx semantic-release --no-ci"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jcristy/StaffNamer.git"

@@ -9,13 +9,13 @@ export default {
   },
   plugins: [
     typescript(),
-    terser({
+/*    terser({
       format: {
         quote_style: 1,
         wrap_iife: true,
         preamble: '// Mod powered by https://github.com/wisnia74/openrct2-typescript-mod-template - MIT license',
       },
-    })
+    })*/
   ],
 //  external: [
 //   "openrct2"
