@@ -4,7 +4,11 @@ StaffManager helps with the tedious process of hiring and naming your staff.
 
 ## Description
 
-Too much clicking. I just want a lot of janitors, and I want them to have names.
+Clicking. I pretty much know what I want, I'm just tired of clicking a lot. I like programming, not clicking.
+
+## Motivation
+
+The best tycoon games *involve designing complex policies*, not tedium that makes you not want to optimize. Transport Tycoon Deluxe was fun because you could set up vast networks; being a signal operator would have become tedious or impossible, but setting up the rules for junctions is fun.
 
 ## How To
 
@@ -23,7 +27,17 @@ edit this file to add or modify the list of names it picks from.
 ## Roadmap & Known Bugs
 
 ### Roadmap
-* Automatically configure janitor zones
+
+* Automatically configure staff zones
+** Basic divisions
+** Mechanics tied to a roller coaster and nearby rides
+** AI that learns where breakdowns are, vomit is, trash cans are full, etc.
+* Automatically adjust numbers
+** Handymen per X guests
+** Handymen hired when X grossness
+** Mechanics per Rides/Coasters/Etc.
+* Save choices across parks
+* Staff Names
 
 ## Acknowledgements
 
