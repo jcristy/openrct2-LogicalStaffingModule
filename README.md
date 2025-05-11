@@ -8,7 +8,7 @@ Clicking. I pretty much know what I want, I'm just tired of clicking a lot. I li
 
 ## Motivation
 
-The best tycoon games *involve designing complex policies*, not tedium that makes you not want to optimize. Transport Tycoon Deluxe was fun because you could set up vast networks; being a signal operator would have become tedious or impossible, but setting up the rules for junctions is fun.
+The best tycoon games *involve designing complex policies*, not tedium that makes you not want to optimize. Transport Tycoon Deluxe was fun because you could set up vast networks; being a signal operator would have become tedious or impossible, but setting up the rules for junctions is fun. Here, we don't have to go in tile by tile, and adjust again when we change, we just set rules and let the plugin make adjustments.
 
 ## How To
 
@@ -23,6 +23,16 @@ Place the staffmanager.js file into the plugins folder.
 Currently, there is not an in-game way to adjust the list of pre-defined names. However, you can modify the OpenRCT2 user config to
 adjust the list of names. In Ubuntu, this file, I think, by default is in `$HOME/.config/OpenRCT2/plugin.store.json`. You can carefully
 edit this file to add or modify the list of names it picks from.
+
+### Use the plug-in
+
+*describe the UI*
+
+## Policy Descriptions
+
+### Handymen
+
+Polar - creates a polar coordinate plane centered on the middle of the 4 extreme corners of footpaths. Then, divides the plane into equal sectors for each handyman. Perfect on Leafy Lake.
 
 ## Roadmap & Known Bugs
 
