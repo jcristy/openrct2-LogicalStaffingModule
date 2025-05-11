@@ -1,6 +1,7 @@
 import {} from 'lib/openrct2';
 
-import { ManageStaff } from './act';
+import { ManageStaff } from './hr';
+import { dailyAssignments} from './ops';
 
 export class PluginConfig {
   configVersion: number;
@@ -75,7 +76,7 @@ export function OpenConfigureUI() {
     }),
     layout.DoMe({
       type: 'dropdown',
-      items: ['None', 'Auto-basic'],
+      items: ['None', 'polar','enhanced','biased'],
       onChange(index: number) {
         myConfig.handymanAutoZones = index;
         save();
@@ -90,7 +91,10 @@ export function OpenConfigureUI() {
           handle.close(); // close the window to force reloading the values :-)
         }
         // Enact The Algorithms
-        ManageStaff(myConfig);
+        ManageStaff(myConfig, ()=>{
+          // must be called in a callback after the hirings/firings are completed
+          dailyAssignments(myConfig);
+        });
       },
     }),
   ];
