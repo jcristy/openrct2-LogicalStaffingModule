@@ -73,7 +73,7 @@ function doHandymenAssignments(config: PluginConfig): void {
           x1: tile.x*32, // convert from tile to entity coordinates
           x2: tile.x*32+31,
           y1: tile.y*32,
-          y2: tile.y*33+31,
+          y2: tile.y*32+31,
           mode: 0, // Set
         },
         (gar) => {
