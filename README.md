@@ -1,5 +1,7 @@
 # Logical Staffing Module (LSM)
 
+*Note: This is still a work in progress*
+
 Logical Staffing Module helps with the tedious process of hiring and naming your staff.
 
 ## Description
