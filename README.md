@@ -1,6 +1,6 @@
-# StaffManager
+# Logical Staffing Module (LSM)
 
-StaffManager helps with the tedious process of hiring and naming your staff.
+Logical Staffing Module helps with the tedious process of hiring and naming your staff.
 
 ## Description
 
@@ -14,7 +14,7 @@ The best tycoon games *involve designing complex policies*, not tedium that make
 
 ### Install
 
-Place the staffmanager.js file into the plugins folder.
+Place the logicalstaffingmodule.js file into the plugins folder.
 * For Windows (untested) `C:Users\{User}\Documents\OpenRCT2\plugin`
 * For Ubuntu and likely other Linux distributions `~/.config/OpenRCT2/plugin`
 

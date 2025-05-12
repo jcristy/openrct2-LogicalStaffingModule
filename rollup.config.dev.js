@@ -4,7 +4,7 @@ import { terser } from 'rollup-plugin-terser';
 export default {
   input: './src/registerPlugin.ts',
   output: {
-    file: '/home/john/.config/OpenRCT2/plugin/StaffManager.js',
+    file: '/home/john/.config/OpenRCT2/plugin/LogicalStafficModule.js',
     format: 'iife',
   },
   plugins: [

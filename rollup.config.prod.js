@@ -5,7 +5,7 @@ import versionInjector from 'rollup-plugin-version-injector';
 export default {
   input: './src/registerPlugin.ts',
   output: {
-    file: './dist/StaffManager.js',
+    file: './dist/LogicalStaffingModule.js',
     format: 'iife',
   },
   plugins: [

@@ -3,7 +3,7 @@
 import main from './main';
 
 registerPlugin({
-  name: 'StaffManager',
+  name: 'LogicalStaffingModule',
   version: '[VI]{version}[/VI]',
   authors: ['jcristy'],
   type: 'remote',

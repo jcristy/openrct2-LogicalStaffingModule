@@ -1,5 +1,5 @@
 {
-  "name": "StaffNamer",
+  "name": "LogicalStaffingModule",
   "version": "0.0.0",
   "description": "",
   "main": "app.js",
@@ -15,14 +15,14 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcristy/StaffNamer.git"
+    "url": "git+https://github.com/jcristy/LogicalStaffingModule.git"
   },
   "author": "jcristy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jcristy/StaffNamer/issues"
+    "url": "https://github.com/jcristy/LogicalStaffingModule/issues"
   },
-  "homepage": "https://github.com/jcristy/StaffNamer#readme",
+  "homepage": "https://github.com/jcristy/LogicalStaffingModule#readme",
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.1.2",
     "@semantic-release/git": "^10.0.1",
@@ -64,7 +64,7 @@
         "@semantic-release/github",
         {
           "assets": [
-            "dist/StaffNamer.js"
+            "dist/LogicalStaffingModule.js"
           ]
         }
       ],
