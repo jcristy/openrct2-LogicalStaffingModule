@@ -6,9 +6,11 @@ Logical Staffing Module helps with the tedious process of hiring and naming your
 
 ## Description
 
-Clicking. I pretty much know what I want, I'm just tired of clicking a lot. I like programming, not clicking.
+LSM helps you automate the staffing levels and patrol areas of your parks.
 
 ## Motivation
+
+Clicking. I pretty much know what I want, I'm just tired of clicking a lot. I like programming, not clicking.
 
 The best tycoon games *involve designing complex policies*, not tedium that makes you not want to optimize. Transport Tycoon Deluxe was fun because you could set up vast networks; being a signal operator would have become tedious or impossible, but setting up the rules for junctions is fun. Here, we don't have to go in tile by tile, and adjust again when we change, we just set rules and let the plugin make adjustments.
 
